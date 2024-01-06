@@ -1,0 +1,26 @@
+{
+  "name": "@sudo3w/sndml",
+  "description": "send mail from terminal!",
+  "version": "1.0.0",
+  "author": "Kamal Kashyap",
+  "homepage": "https://github.com/thekamalkashyap/sndml",
+  "main": "main.js",
+  "keywords": [
+    "mail",
+    "mailer",
+    "nodemailer",
+    "linux",
+    "tool"
+  ],
+  "bin": {
+    "sndml": "main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:thekamalkashyap/sndml.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "nodemailer": "^6.9.7"
+  }
+}
